@@ -1,0 +1,6 @@
+Ayu,85
+Budi,78
+Citra,90
+Dina,65
+Eka,55
+Fajar,80

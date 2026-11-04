@@ -1,0 +1,7 @@
+HASIL ANALISIS NILAI SISWA
+==========================
+Rata-rata: 75.50
+Nilai tertinggi: 90.0
+Nilai terendah: 55.0
+Jumlah tuntas: 4
+Jumlah belum tuntas: 2
