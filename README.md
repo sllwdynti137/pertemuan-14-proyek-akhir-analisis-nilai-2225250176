@@ -29,7 +29,7 @@ Program ini ditujukan untuk guru atau pengguna yang membutuhkan pengolahan dan r
 
 ## 5. Teknologi yang Digunakan
 
-- Python
+- Python 3.x
 - Visual Studio Code
 - Git
 - GitHub
@@ -37,7 +37,7 @@ Program ini ditujukan untuk guru atau pengguna yang membutuhkan pengolahan dan r
 ## 6. Struktur Folder
 
 ```text
-proyek-analisis-nilai/
+pertemuan-14-proyek-akhir-analisis-nilai/
 │
 ├── README.md
 ├── proposal.md
@@ -46,17 +46,19 @@ proyek-analisis-nilai/
 ├── data/
 │   └── nilai_siswa.txt
 │
+├── output/
+│   ├── .gitkeep
+│   └── laporan_nilai.txt
+│
 ├── src/
-│   ├── main.py
-│   ├── data_io.py
+│   ├── __pycache__/
 │   ├── analisis.py
+│   ├── data_io.py
+│   ├── main.py
 │   └── utilitas.py
 │
-├── tests/
-│   └── test_case.md
-│
-└── output/
-    └── .gitkeep
+└── tests/
+    └── test_case.md
 ```
 
 ## 7. Input, Proses, dan Output
@@ -82,22 +84,41 @@ proyek-analisis-nilai/
 
 ## 8. Cara Menjalankan Program
 
-Pastikan Python sudah terinstal, kemudian buka terminal VS Code dan jalankan:
+Pastikan Python sudah terinstal, kemudian buka folder proyek melalui VS Code.
+
+Buka terminal dan jalankan perintah berikut:
 
 ```bash
 python src/main.py
 ```
 
+Program akan membaca data siswa dan menampilkan hasil analisis melalui terminal.
+
 ## 9. Hasil yang Diharapkan
 
 Program dapat menampilkan hasil analisis nilai siswa melalui terminal dan menyimpan hasilnya dalam file `output/laporan_nilai.txt`.
 
-## 10. Status Proyek
+## 10. Pengujian Program
 
-Proyek ini dirancang pada Pertemuan 14 dan dilanjutkan dengan implementasi, pengujian, debugging, serta dokumentasi pada Pertemuan 15.
+Pengujian dilakukan untuk memastikan program dapat membaca data, memvalidasi nilai, menghitung statistik, dan menentukan ketuntasan siswa dengan benar.
 
-## 11. Anggota Kelompok
+Pengujian mencakup kondisi normal, batas nilai, input tidak valid, dan kondisi file.
+
+Hasil pengujian dicatat dalam file `tests/test_case.md`.
+
+## 11. Known Issues
+
+Program masih menggunakan tampilan berbasis terminal dan belum menggunakan antarmuka grafis.
+
+## 12. Anggota Kelompok
 
 1. Sela Widiyanti
 
-"docs: menambahkan proposal proyek analisis nilai"
+## 13. Referensi/Bantuan
+
+- Proposal Proyek Pertemuan 14.
+- Bahan Ajar Algoritma dan Pemrograman Pertemuan 15.
+- Python 3 Documentation.
+- Visual Studio Code Documentation.
+- GitHub Documentation.
+- Bantuan AI
